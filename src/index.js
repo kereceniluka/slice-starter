@@ -1,3 +1,5 @@
+import './scss/index.scss';
+
 const object1 = {
     leatherStrips: 2,
     ironIngot: 1,
