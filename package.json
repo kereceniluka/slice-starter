@@ -1,0 +1,27 @@
+{
+  "name": "slice-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kereceniluka/slice-starter.git"
+  },
+  "keywords": [],
+  "author": "Luka Kereceni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kereceniluka/slice-starter/issues"
+  },
+  "homepage": "https://github.com/kereceniluka/slice-starter#readme",
+  "devDependencies": {
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
