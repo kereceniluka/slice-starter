@@ -30,11 +30,8 @@ module.exports = {
                         options: {
                             sourceMap: true,
                             postcssOptions: {
-                                plugins: ['postcss-preset-env'],
+                                plugins: ['postcss-preset-env', 'autoprefixer', 'cssnano'],
                             },
-                            /* plugins: function () {
-                                return [autoprefixer, cssnano]
-                            }, */
                         },
                     },
                     {
